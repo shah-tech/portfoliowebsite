@@ -1,0 +1,40 @@
+/* Universal Styles */
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 26px;
+    text-align: center;
+  }
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+    padding: 10px;
+  }
+
+                       /*Header styles*/
+
+#title{
+    display:inline;
+    position: relative;
+    right: 45%;
+    top: 11px;
+    font-size: 22px;
+    font-weight:bold;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+#navLinks span{
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    font-size: 22px;
+    justify-content: space-between;
+    word-spacing: 2px;
+    padding: 1px 10px; 
+}
