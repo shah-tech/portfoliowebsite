@@ -90,6 +90,7 @@ h1{
 
 p{
     font-size: 17px;
+    font-family:  sans-serif ;
 }
 
 #aboutMe{
@@ -160,3 +161,11 @@ section {
       flex-direction: column;
     }
   }
+
+  .contact-nav{
+      display: flex;
+      justify-content: center;
+  }
+li{
+    list-style-type: none;
+}
