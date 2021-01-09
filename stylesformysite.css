@@ -54,17 +54,18 @@ nav {
     padding: var(--spacing-3) 0;
 }
                   
-.navigation-items {
+.navLinks {
     display: flex;
     list-style-type: none;
     padding: 0;
     align-items: center;
     margin: 0;
     margin-left: auto;
+    
  }
                   
- .navigation-item {
-     margin: var(--spacing-1);
+ .navLink {
+    margin: var(--spacing-1);
     }
                   
 .portrait {
@@ -72,6 +73,8 @@ nav {
     border-radius: var(--border-radius);
     flex-shrink: 0;
 }
+
+
                   
 .about-me-container {
     display: flex;
@@ -136,6 +139,21 @@ section {
 
 #skills{
     display: flex;
+}
+.flex-list{
+    margin: var(--spacing-1);
+
+
+}
+
+.flexy-list{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    
 }
 @media only screen and (max-width: 600px) {
     .about-me-container {
